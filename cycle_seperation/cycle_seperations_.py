@@ -65,7 +65,7 @@ def save_and_plot_cycles(cycles, directory, filename, start_cycle=1):
         ax = plt.gca()
         ax.yaxis.set_major_formatter(formatter0)
         plt.legend()
-        plt.savefig(os.path.join(directory, f'Cycle{i}.png'), dpi=300)
+        plt.savefig(os.path.join(directory, f'Cycle{i}_{filename}.png'), dpi=300)
         plt.close()
 
 def main():
