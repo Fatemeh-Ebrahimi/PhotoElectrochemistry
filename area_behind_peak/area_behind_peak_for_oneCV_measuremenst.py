@@ -1,5 +1,5 @@
-# calculation area behind reduction peak in a cycle voltamogram 
-# this code asks for a SCV file input file has a 'Potetial (V vs.RHE)','Current' and 'Time' columns
+# calculation area behind reduction peak in a cycle voltammogram 
+# This code asks for an SCV file input file, which acquired from the Zahner potentiostat setup.
 
 import numpy as np
 import pandas as pd
