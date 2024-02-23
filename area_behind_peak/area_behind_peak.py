@@ -1,4 +1,4 @@
-# calculation area behind reduction peak
+# This program is used on the separate cycles in a CV measurement and calculation area behind the reduction peak
 import numpy as np
 import pandas as pd
 from scipy.integrate import simpson
