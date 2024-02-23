@@ -1,4 +1,5 @@
 # This program is used on the separate cycles in a CV measurement and calculation area behind the reduction peak
+# This code ask for a .csv file which already separated with the other code and has a 'Potetial (V vs.RHE)','Current' and 'Time' columns
 import numpy as np
 import pandas as pd
 from scipy.integrate import simpson
