@@ -1,4 +1,4 @@
-#%%
+#%%This program seperate cycles in a CV measurement and the visualize them in Shiny
 #importing libreries
 import pandas as pd
 import numpy as np
