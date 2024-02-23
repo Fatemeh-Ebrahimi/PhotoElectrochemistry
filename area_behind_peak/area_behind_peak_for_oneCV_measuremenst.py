@@ -62,8 +62,8 @@ for filename in filelist:
     convert_potential_to_RHE(df, REF_POTENTIAL)
     #df = pd.read_csv(filename, sep=',', error_bad_lines=False, warn_bad_lines=True)
     pot_max = np.argmax(df['Potential (V vs. RHE)'])
-    ind_min= closest(df['Potential (V vs. RHE)'][pot_max:],1.4)+ pot_max
-    ind_max= closest(df['Potential (V vs. RHE)'][pot_max:],0.8)+ pot_max
+    ind_min= closest(df['Potential (V vs. RHE)'][pot_max:],1.25)+ pot_max
+    ind_max= closest(df['Potential (V vs. RHE)'][pot_max:],0.45)+ pot_max
     y1= df['Current'][ind_min]
     y2 = df['Current'][ind_max]
     x_values = [df['Time'][ind_min], df['Time'][ind_max]]
